@@ -1,24 +1,82 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
     min-height: 100vh;
     background: #87CEEB;
 }
 
+input,
+button,
+select,
+textarea {
+    font-family: Lato, sans-serif;
+    font-size: inherit;
+    outline: none;
+}
 
-h1 {
+img {
+    border: none;
+    max-width: 100%;
+}
+
+::-webkit-input-placeholder {
     color: #fff;
 }
 
-#weather-app {
-    text-align: center;
+::-moz-placeholder {
+    color: #fff;
 }
 
-#weather-info {
-    margin-top: 20px;
+:-ms-input-placeholder {
+    color: #fff;
 }
 
+:-moz-placeholder {
+    color: #fff;
+}
+
+.logo {
+    width: 250px;
+}
+
+.search-box {
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+}
+
+.search-box-input {
+    border: none;
+    height: 45px;
+    width: 100%;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.search-box-btn {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    bottom: 4px;
+    width: 36px;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
 
 #backgroundImg {
     position: absolute;

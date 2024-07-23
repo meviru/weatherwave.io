@@ -105,6 +105,7 @@ function displayWeather(data) {
       imgSrc = "images/clear.jpg";
       break;
     case 1240:
+    case 1243:
     case 1183:
       imgSrc = "images/rain.jpg";
       break;
