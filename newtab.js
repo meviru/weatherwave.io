@@ -107,7 +107,7 @@ function displayWeather(data) {
     case 1240:
     case 1243:
     case 1183:
-      imgSrc = "images/rain.jpg";
+      imgSrc = "images/rain-2.jpg";
       break;
     case "snow":
       imgSrc = "images/snow.jpg";
