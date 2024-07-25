@@ -13,6 +13,12 @@ document.getElementById("getWeather").addEventListener("click", function () {
   }
 });
 
+document
+  .getElementById("getCurrentLocationWeather")
+  .addEventListener("click", function () {
+    getCurrentLocationWeather();
+  });
+
 function getCurrentLocationWeather() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(

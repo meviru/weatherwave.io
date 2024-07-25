@@ -65,11 +65,19 @@ img {
     width: 250px;
 }
 
+.logo img {
+    display: block;
+}
+
 .search-box {
-    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-box-field {
     width: 350px;
     max-width: 100%;
-    margin-left: 50px;
+    position: relative;
 }
 
 .search-box-input {
@@ -96,6 +104,19 @@ img {
     align-items: center;
     justify-content: center;
     background-color: transparent;
+}
+
+.btn-location {
+    border: none;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
 }
 
 .weather-info {
